@@ -36,7 +36,7 @@ header {
     background-size: cover;
 }
 .bannerText {
-    height: 600px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -551,7 +551,7 @@ header {
 }
 .ninthSec {
     height:800px;
-    background-color: #B1D4E0;
+    background-image: url(../images/bg-01.jpg);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

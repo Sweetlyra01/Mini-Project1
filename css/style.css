@@ -459,7 +459,7 @@ header {
     
 }
 .eigthSec {
-    height: 400px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -791,7 +791,7 @@ header {
     }
 }
 .eleventhSec {
-    height: 700px;
+    height: 950px;
     background-image: url(../images/bg-01.jpg);
     display: flex;
     flex-direction: column;
@@ -801,6 +801,7 @@ header {
 .eleventhSec-Titletext {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 50px;
     font-family: 'Caprasimo', cursive;
     color: white;

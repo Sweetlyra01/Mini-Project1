@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YraBella's Magazine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ef0a2a4efa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="navBar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index2.html">GALLERY</a></li>
+                <li><a href="index3.html">FEATURED</a></li>
+                <li><a href="index4.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="Qoute">
+        Qoutes you should hear today...
+    </div>
+    <div class="twelvethSec">
+        <div class="Qoutes Qoutes1"></div>
+        <div class="Qoutes Qoutes2"></div>
+        <div class="Qoutes Qoutes3"></div>
+        <div class="Qoutes Qoutes4"></div>
+        <div class="Qoutes Qoutes5"></div>
+        <div class="Qoutes Qoutes6"></div>
+        <div class="Qoutes Qoutes7"></div>
+        <div class="Qoutes Qoutes8"></div>
+        <div class="Qoutes Qoutes9"></div>
+        <div class="Qoutes Qoutes10"></div>
+    </div>
+    <div class="emailSec">
+        <span>Want us to send you self love qoutes everyday? Give us your email. </span>
+        <span>
+            <input type="email" accept=".com" placeholder="binibingsweetlyra@gmail.com">
+            <button type="submit" onclick="openpopup()">Submit</button>
+            <div class="popup" id="popup">
+                <h2>Thank you!</h2>
+                <p>Your website has been submitted. We will be sending you qoutes starting today.</p>
+                <button type="button" onclick="closepopup()">OK</button>
+            </div>
+        </span>
+    </div>
+   <script>
+    let popup = document.getElementById("popup")
+
+    function openpopup(){
+        popup.classList.add("open-popup");
+    }
+    function closepopup(){
+        popup.classList.remove("open-popup");
+    }
+   </script>
+    <footer>
+        <div class="F-sections">
+            <div class="F-secHead">
+                <span>QUICK LINKS</span>
+            </div>
+            <div class="F-secSubHead">
+                <span><a href="index.html">HOME</a></span>
+                <span><a href="index4.html">ABOUT US</a></span>
+                <span><a href="index2.html">GALLERY</a></span>
+                <span><a href="index.html#footer">CONTACT US</a></span>
+                <span><a href="index3.html">FEATURED</a></span>
+            </div>  
+        </div>
+        <div class="F-sections">
+            <div class="F-secHead">
+                <span>CONNECT WITH US</span>
+            </div>
+            <div class="F-secSubHead">
+                <span><a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-beat"></i></a> Yra__bella's Magazine</span>
+                <span><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram fa-beat"></i></a> @Yra__bella'sMagazineFeed</span>
+                <span><a href="https://www.pinterest.ph"><i class="fa-brands fa-pinterest fa-beat"></i></a> @Yra_bella</span>
+            </div>
+        </div>
+        <div class="F-sections">
+            <div class="F-secHead">
+                <span>CONTACT US</span>
+            </div>
+            <div class="F-secSubHead">
+                <span><i class="fa-solid fa-phone fa-beat"></i>_+639762929866</span>
+                <span><i class="fa-solid fa-square-envelope fa-beat"></i>  <a href="https://g.co/kgs/TFy6G9">binibingsweetlyra@gmail.com</a></span>
+            </div>  
+        </div>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+    </footer>
+    <div class="copyright">
+        <span>© 2023 YraBella's Magazine - All Rights Reserved.</span>
+    </div>
+</body>
+</html>

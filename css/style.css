@@ -551,8 +551,7 @@ header {
 }
 .ninthSec {
     height:800px;
-    background-image: url(/images/bg-01.jpg);
-    background-size: cover;
+    background-color: #B1D4E0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

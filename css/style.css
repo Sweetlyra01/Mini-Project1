@@ -1294,6 +1294,7 @@ button:hover {
     width: 400px;
     background-color: rgb(143, 134, 134);
     border-radius: 6px;
+    border: 3px solid white;
     position: absolute;
     top: 100%;
     left: 50%;

@@ -459,7 +459,7 @@ header {
     
 }
 .eigthSec {
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -542,7 +542,7 @@ header {
 }
 @media only screen and (max-width: 767px) {
     .eigthSec {
-        height: 700px;
+        height: 1000px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

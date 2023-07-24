@@ -662,9 +662,9 @@ header {
 }
 @media only screen and (max-width: 767px) {
     .ninthSec {
-        height: 1000px;
+        height: 10git 00px;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .boxB span a {
         padding: 5px 5px;

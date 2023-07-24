@@ -285,9 +285,11 @@ header {
         height: 550px;
     }
     .fourthsecText {
-        font-size: 15px;
+        font-size: 13px;
         height: 50px;
         width: 400px;
+        align-items: center;
+        margin-left: 25px;
     }
 }
 .fifthSec {

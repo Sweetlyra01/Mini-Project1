@@ -289,7 +289,7 @@ header {
         height: 50px;
         width: 400px;
         align-items: center;
-        margin-left: 25px;
+        padding: 20px;
     }
 }
 .fifthSec {
